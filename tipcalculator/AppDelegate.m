@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TipViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    TipViewController * vc = [[TipViewController alloc] initWithNibName:@"TipViewController" bundle:nil];
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = nvc;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
