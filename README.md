@@ -6,8 +6,9 @@ This is an iOS demo application for calculating tip. Watch the [video](http://vi
 5 hours
 
 **Which required and optional stories have you completed?**
-[x] Required: Tip settings page
-[x] Required: Storing default tip setting
-[x] Required: When returning to the main tip view controller from the settings page, tip percentage reflects the new default value
+* [x] Required: Tip settings page
+* [x] Required: Storing default tip setting
+* [x] Required: When returning to the main tip view controller from the settings page, tip percentage reflects the new default value
 
 **GIF walkthrough of all required and optional stories (using LiceCap)**
+![Video Walkthrough](TipCalculator.gif)
