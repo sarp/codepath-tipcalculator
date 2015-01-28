@@ -3,7 +3,7 @@
 This is an iOS demo application for calculating tip. Watch the [video](http://vimeo.com/74764846) for a step-by-step tutorial.
 
 **How many hours did it take to complete?**
-5 hours
+<br>5 hours in total
 
 **Which required and optional stories have you completed?**
 * [x] Required: Tip settings page
