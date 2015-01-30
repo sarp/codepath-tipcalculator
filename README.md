@@ -12,3 +12,5 @@ This is an iOS demo application for calculating tip. Watch the [video](http://vi
 
 **GIF walkthrough of all required and optional stories (using LiceCap)**
 ![Video Walkthrough](TipCalculator.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
